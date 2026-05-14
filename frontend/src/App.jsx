@@ -389,7 +389,7 @@ const App = () => {
                 </div>
 
                 <div className='container-footer'>
-                    Copyright-30334@ 2026. All rights reserved.
+                    Copyright @ 2026. All rights reserved.
                 </div>
 
             </div>
