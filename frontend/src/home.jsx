@@ -26,7 +26,7 @@ const Home = () => {
     const randomRoleId = Math.floor(Math.random() * 1000);
 
     await fetch(
-        `http://localhost:8001/authservice/addrole?role=${randomRoleId}&rolename=${roleName}`,
+        `http://localhost:8000/authservice/addrole?role=${randomRoleId}&rolename=${roleName}`,
         {
             method: "POST"
         }
