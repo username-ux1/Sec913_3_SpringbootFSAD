@@ -141,6 +141,7 @@ const App = () => {
         else{
 
             localStorage.setItem("token", res.jwt);
+            localStorage.setItem("username", signinData.username);
 
             window.location.href = "/home";
         }

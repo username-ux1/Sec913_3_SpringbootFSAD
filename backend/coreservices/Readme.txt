@@ -38,3 +38,4 @@ INSERT INTO users (email, fullname, password, phone, role, status) VALUES
 ( 'manager@gmail.com', 'manager', '1234', '989898989', 2, 1),
 ( 'user@gmail.com', 'user', '1234', '7676767676', 1, 1);
 ( 'guest@gmail.com', 'user', '1234', '1234567890, 1, 1);
+
